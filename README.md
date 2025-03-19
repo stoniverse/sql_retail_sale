@@ -49,9 +49,9 @@ create table retail_sales(
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
 ```sql
-SELECT COUNT(*) FROM retail_sales;
-SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
-SELECT DISTINCT category FROM retail_sales;
+select count(*) FROM retail_sales;
+select count(distinct customer_id) from retail_sales;
+select distinct category from retail_sales;
 
 select *
 from retail_sales
